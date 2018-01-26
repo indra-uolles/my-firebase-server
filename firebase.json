@@ -1,10 +1,20 @@
 {
   "hosting": {
     "public": "public",
-    "rewrites": [{
-      "source": "/timestamp",
+    "rewrites": [
+      {
+      "source": "/workexp",
       "function": "app"
-    }],
+      },
+      {
+        "source": "/projects",
+        "function": "app"
+      },
+      {
+        "source": "/captchacheck",
+        "function": "app"
+      }
+    ],
     "ignore": [
       "firebase.json",
       "**/.*",
