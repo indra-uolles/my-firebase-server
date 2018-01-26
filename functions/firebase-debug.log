@@ -1,0 +1,44 @@
+[debug] [2018-01-26T13:39:30.500Z] ----------------------------------------------------------------------
+[debug] [2018-01-26T13:39:30.502Z] Command:       /usr/local/bin/node /usr/local/bin/firebase serve --only functions,hosting
+[debug] [2018-01-26T13:39:30.503Z] CLI Version:   3.17.3
+[debug] [2018-01-26T13:39:30.503Z] Platform:      darwin
+[debug] [2018-01-26T13:39:30.503Z] Node Version:  v9.3.0
+[debug] [2018-01-26T13:39:30.503Z] Time:          Fri Jan 26 2018 16:39:30 GMT+0300 (MSK)
+[debug] [2018-01-26T13:39:30.504Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-01-26T13:39:30.520Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-01-26T13:39:30.521Z] > authorizing via signed-in user
+[debug] [2018-01-26T13:39:30.524Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/my-firebase-server  
+  
+ Fri Jan 26 2018 16:39:30 GMT+0300 (MSK)
+[debug] [2018-01-26T13:39:31.336Z] <<< HTTP RESPONSE 200
+[debug] [2018-01-26T13:39:31.337Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/my-firebase-server/tokens  
+  
+ Fri Jan 26 2018 16:39:31 GMT+0300 (MSK)
+[debug] [2018-01-26T13:39:32.027Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from '/Users/ddushkin/programming/my-firebase-server'...
+[info] 
+[info] i  functions: Preparing to emulate functions.
+[debug] [2018-01-26T13:39:32.458Z] Fetching environment
+[debug] [2018-01-26T13:39:32.461Z] >>> HTTP REQUEST GET https://appengine.googleapis.com/v1/apps/my-firebase-server  
+  
+ Fri Jan 26 2018 16:39:32 GMT+0300 (MSK)
+[debug] [2018-01-26T13:39:32.461Z] >>> HTTP REQUEST GET https://apikeys.googleapis.com/v1/projects/my-firebase-server/apiKeys  
+  
+ Fri Jan 26 2018 16:39:32 GMT+0300 (MSK)
+[debug] [2018-01-26T13:39:32.462Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/my-firebase-server  
+  
+ Fri Jan 26 2018 16:39:32 GMT+0300 (MSK)
+[debug] [2018-01-26T13:39:33.510Z] <<< HTTP RESPONSE 200
+[debug] [2018-01-26T13:39:33.510Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/707568084622/clients/_:getWebAppConfig  
+  
+ Fri Jan 26 2018 16:39:33 GMT+0300 (MSK)
+[debug] [2018-01-26T13:39:33.514Z] <<< HTTP RESPONSE 200
+[debug] [2018-01-26T13:39:33.631Z] <<< HTTP RESPONSE 200
+[debug] [2018-01-26T13:39:33.632Z] Starting @google-cloud/functions-emulator
+[debug] [2018-01-26T13:39:34.055Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: public
+[info] ✔  hosting: Local server: http://localhost:5000
+
+[debug] [2018-01-26T13:39:35.181Z] Parsing function triggers
