@@ -3,7 +3,7 @@ const router = express.Router();
 const got = require('got');
 
 router.post('/', function(req, res, next) {
-    got('https://www.google.com/recaptcha/api/siteverify?secret=' + '6LdZzkEUAAAAAIR-vFLZ3a8OQc8Ixi03O1diG8dF' + '&response=' + req.body.captcha)
+    got('https://www.google.com/recaptcha/api/siteverify?secret=' + '6LfIxUEUAAAAAKfbgahQiPX31boA14xkcGXA8IP_' + '&response=' + req.body.captcha)
         .then(function(resp) {
             return res.send({ success: true });
             //res.send({ success: JSON.parse(resp.body).success });
